@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./lib/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./lib/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+
+
+
+
+    <title>EcoWatch</title>
+</head>
+
+<body style="background-color: #E9F7EF">
+    <!-- NavBar -->
+    <nav id="navmenu" class="navbar navbar-expand-lg sticky-top">
+        <a class="navbar-brand" href="#home">
+            
+            
+        </a>
+        <button id="nav-toggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span id="nav-toggle-icon" class="fas fa-ellipsis-v"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul id="navmenu-links" class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Project Scope
+              </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#project-scope">Literature Survey</a>
+                        <a class="dropdown-item" href="#research_gap">Research Gap</a>
+                        <a class="dropdown-item" href="#research_problem">Research Problem & Solution</a>
+                        <a class="dropdown-item" href="#research_objectives">Research Objectives</a>
+                        <a class="dropdown-item" href="#methodology">Methodology</a>
+                        <a class="dropdown-item" href="#tech_used">Technologies</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#milestones">Milestones</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Downloads
+                </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#downloads">Documents</a>
+                        <a class="dropdown-item" href="#presentations">Presentations</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#achievements">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Home -->
+    <section id="home">
+      <div class="container">
+          <div class="hero-cta">
+              <h1>Environmental Monitoring <br/>Management System</h1>
+              <a class="btn btn-outline-light" type="button" href="#project-scope"><span class="btn-text">Learn More</span><span class="fas fa-chevron-right btn-icon"></span></a>
+          </div>
+      </div>
+      <div class="hero-cover">
+          <img class="spotlight-image" src="./Images/other/all.png" alt="Spotlight Image" />
+          <img class="hero-image" src="./Images/other/bg.jpg" alt="Background Image" />
+      </div>
+  </section>
+
+
+
+    <!-- project-scope -->
+    <section id="project-scope" class="main-sections" style="background-color:#FDFEFE">
+        <div class="container">
+            <h5 class="section-headings">Project Scope</h5>
+            <!-- Literature Survey -->
+            <div id="literature" class="sub-section">
+                <h2>Background Literature</h2>
+                <div class="row">
+                    <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5">
+                        <div class="section-left">
+                      <div class="section-figure " >
+                        <img style="align-items:center" src="./Images/lit/lit.jpg" width="80%"/>
+                       
+                      </div>
+                    </div>
+                  </div>
+                  <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+					<P>The background literature highlights the integration of satellite imagery, remote sensing technologies, and computational methods in environmental monitoring, focusing on deforestation detection, forest classification, forest health assessments, and wildlife tracking.</P>
+<br>
+            <h6>Deforestation Detection:</h6>
+            <p>Landsat 8 OLI and Synthetic Aperture Radar (SAR) imagery, along with deep convolutional neural networks (CNNs), enhance deforestation mapping and overcome challenges like cloud cover.</p>
+            <br>
+            <h6>Forest Classification:</h6> 
+            <p>Modern remote sensing technologies like LiDAR have advanced the precise and scalable classification of forest types, aiding conservation and land management.</p>
+            <br>
+            <h6>Forest Health Assessments:</h6> 
+            <p>LiDAR provides detailed biomass and structural data, with machine learning algorithms further refining forest health monitoring and biomass estimation.</p>
+            <br>
+            <h6>Wildlife Tracking:</h6>
+            <p>Remote camera traps and deep learning techniques (e.g., CNNs and YOLO algorithms) enable accurate, non-invasive wildlife monitoring and species identification.</p>
+                  </div>
+                </div>
+            </div>
+            <!-- Research Gap -->
+            <div id="research_gap" class="sub-section" >
+              <h2>Research Gap</h2>
+              <p>Following areas are the research gaps found in most of the recent researches.</p>
+              <div class="row mt-5 research-gap">
+			<div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="fa-container text-center">
+                        <i class="fas fa-search fa-3x " aria-hidden="true" style="color: green; "></i>
+                    </div>
+                    <div class="text-center" style="padding-top: 20px;">
+                        <h5>Identification & classification </h5>
+                    </div>
+                    <div>
+                        <p style="text-align: justify;"> <li>Manual, labor-intensive forest type classification methods. </li></p>
+                        <p style="text-align: justify;"> <li>Challenges in accurate wildlife detection and counting.</li></p>  
+                        <p style="text-align: justify;"><li>Inadequate classification of deforestation causes</li></p>  
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fa-container text-center">
+                        <i class="fas fa-chart-line fa-3x " aria-hidden="true" style="color: green;"></i>
+                    </div>
+                    <div class="text-center" style="padding-top: 20px;">
+                        <h5>Severity assessment</h5>
+                    </div>
+                    <div>
+                        <p style="text-align: justify;"> <li>Fragmented forest health models lacking multi-faceted analysis.</li></p>
+                        <p style="text-align: justify;"> <li>Inconsistent deforestation detection across regions and forest types.</li></p>
+                        
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fa-container text-center">
+                        <i class="fas fa-comments fa-3x " aria-hidden="true" style="color: green;"></i>
+                    </div>
+                    <div class="text-center" style="padding-top: 20px;">
+                        <h5>Information sharing</h5>
+                    </div>
+                   
+                    <div>
+                     
+                      <p style="text-align: justify;"><li> Limited integration of LiDAR with satellite imagery.</li></p> 
+                     <p style="text-align: justify;"> <li>Insufficient fusion of multi-source data for comprehensive monitoring.</li></p> 
+                   
+                    </div>
+                </div>
+
+            </div>
+			</div> 
+              </div>
+          </div>
+            <!-- Research Problem -->
+            <div id="research_problem" class="sub-section">
+              <h2>Research Problem & Solution</h2>
+			   <div class="row">
+                <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+                 <h5><strong>Proposed Problem</strong></h5>
+				 </br>
+					<h4 class="highlight"> Enhancing Precision and Automation in Environmental Monitoring: Addressing the Gaps in Deforestation Detection, Forest Classification, Forest Health Assessment, and Wildlife Tracking</h4>
+					<p></p>
+					<p style="text-align: justify;">Current environmental monitoring practices face critical limitations in precision, automation, and comprehensiveness. Deforestation detection methods relying heavily on satellite imagery lack the precision for accurate classification. Forest classification is challenged by the underutilization of LiDAR data, making automated identification labor-intensive. Forest health assessments do not integrate multiple data sources, leading to fragmented analyses. Wildlife tracking systems struggle with inaccuracies, especially in low-light conditions, and lack real-time data processing and actionable insights. These gaps hinder effective environmental management and conservation efforts.</p>
+				</br>
+				</div>
+
+				<div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5">
+                  <div class="section-left">
+                    <div class="section-figure">
+                      <img style="align-items:center" src="./Images/lit/de.svg" height="415" width="80%"/>
+                      <!-- <iframe width="100%" height="315" src="https://www.youtube.com/embed/3myik4zPU2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                   
+                    </div>
+                  </div>
+                </div>
+              </div>
+			     <div>
+				 <h5><strong>Proposed Solution</strong></h5>
+				 </br>
+				 <p style="text-align: justify;">Develop a comprehensive, integrated environmental monitoring system leveraging advanced technologies such as LiDAR, SAR, multispectral satellite imagery, and machine learning algorithms to enhance the precision, automation, and comprehensiveness of deforestation detection, forest classification, forest health assessment, and wildlife tracking.</P>
+                </div>
+          </div>
+            <!-- Research Objectives -->
+		   <div id="research_objectives" class="sub-section">
+        <div class="container">
+          <h2 class="pb-5 pt-5 text-center mb-5 display-5">Research Objectives</h2>
+          <!-- First Content Section-->
+          <div class="row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+            <div class="col-6">
+              <h4>Deforestation Detection and Classification</h4>
+              
+              <p style="text-align: justify;">The first objective is to enhance deforestation detection methods by integrating LiDAR technology with traditional satellite imagery to provide precise classification and quantification of deforestation. This includes distinguishing various causes of deforestation, such as agricultural expansion, new constructions, and urbanization, to improve the accuracy and depth of assessments. This approach aims to support effective forest management and conservation strategies by offering detailed and actionable insights.</p>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner left-bottom"></div>
+            </div>
+          </div>
+          <!-- Second Content Section-->
+          <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-6 text-right">
+              <h4>Automated Forest Type Classification</h4>
+              <p style="text-align: justify;">The second objective is to develop an advanced system for the automated identification of forest types using LiDAR data combined with multispectral satellite imagery and climatic data. This involves creating machine learning models, including convolutional neural networks (CNNs), to process and analyze the data, enabling efficient and scalable forest type classification. The goal is to replace labor-intensive manual methods with a comprehensive, automated solution that provides accurate and consistent classification across diverse forest ecosystems.</p>
+            </div>
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner top-left"></div>
+            </div>
+          </div>
+          <!-- Third Content Section -->
+          <div class="row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+            <div class="col-6">
+              <h4>Comprehensive Forest Health Assessment</h4>
+              
+              <p style="text-align: justify;">
+                The third objective is to create tools for assessing forest health by evaluating biomass estimation and carbon storage using LiDAR data. This includes developing methodologies to monitor changes in forest health over time, facilitating the identification of patterns in carbon storage, and supporting sustainable forest management practices. The aim is to fill the gap in regions like Sri Lanka by providing a robust system for tracking forest conditions and guiding conservation efforts and climate change mitigation strategies.
+
+              </p>
+            </div>
+          </div>
+		   <!-- Path Line -->
+
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner left-bottom"></div>
+            </div>
+          </div>
+          <!-- Second Content Section-->
+          <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-6 text-right">
+              <h4>Enhanced Wildlife Tracking and Monitoring</h4>
+              <p style="text-align: justify;">The fourth objective is to improve wildlife tracking accuracy through the development of advanced detection models capable of identifying animals in challenging conditions, such as low-light environments and partial visibility. This includes refining techniques for counting animals within groups and integrating data from camera traps into a user-friendly application. The application will offer functionalities for low-light analysis, group counting, and seamless data integration, enabling more effective conservation strategies and real-time monitoring of wildlife populations.</p>
+            </div>
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner top-left"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+            <!-- Methodology -->
+            <div id="methodology" class="sub-section">
+              <h2>Methodology</h2>
+              <div class="row">
+                <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5">
+                  <div class="section-left">
+                    <div class="section-figure">
+                      <img src="./Images/other/architecture.png" width="100%"/>
+                      <p>Figure 2. High Level Architecture of the system.</p>
+                    </div>
+                  </div>
+                </div>
+                <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+                  
+                  
+				  <p> Our methodology for improving environmental monitoring combines cutting edge technologies and techniques with four key elements: tracking wildlife, classifying forests, determining the health of the forests, and detecting deforestation. We will use deep convolutional neural networks (CNNs) tailored to process Landsat 8 OLI and Synthetic Aperture Radar (SAR) data for the purpose of detecting deforestation. This strategy seeks to improve accuracy by reducing obstacles like cloud cover and fluctuating climatic conditions. Our approach to forest classification is applying automated methods that make use of LiDAR data to accurately classify different types of forests. Creating scalable algorithms to automate land management and conservation procedures will help to decrease the need for human intervention.</p>
+				  <p>Moreover, our approach incorporates many data sources for an all-encompassing evaluation of forest health. We aim to properly assess biomass and carbon storage by utilizing cutting-edge image processing techniques and machine learning algorithms, with a special emphasis on LiDAR data. In addition to increasing the accuracy of assessments of the health of the forest, this comprehensive method offers practical insights that are essential for efficient environmental management and conservation initiatives. Lastly, by utilizing deep learning models like CNNs and YOLO algorithms, our methodology increases the monitoring of wildlife. In order to assist effective conservation measures, these models will be tuned for real-time monitoring through the use of remote video traps. This will address issues with low light and improve the accuracy of species identification.</p>
+                </div>
+              </div>
+          </div>
+            <!-- Technologies Used -->
+            <div id="tech_used"  class="sub-section">
+              <h2>Technologies Used</h2>
+              <div class="row technology mt-5">
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/python.png" alt="Python">
+                  </div>
+                  <p>Python</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/react.png" alt="React">
+                  </div>
+                  <p>React</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/tensorflow.png" alt="Tensorflow">
+                  </div>
+                  <p>Tensorflow</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/matlab.png" alt="matlab">
+                  </div>
+                  <p>Matlab</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/mongo.jpg" alt="MongoDB">
+                  </div>
+                  <p>MongoDB</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/googlemap.png" alt="googlemap">
+                  </div>
+                  <p>Googlemap</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/open cv.png" alt="open cv">
+                  </div>
+                  <p>open cv</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/pngaaa.com-3594055.png" alt="yolo">
+                  </div>
+                  <p>YOLO</p>
+                </div>
+				
+				
+			
+				
+          </div>
+        </div>
+      </section>
+
+      <section id="features">
+        <h1 data-aos="fade-right">What do we provide ?</h1>
+    
+        <div class="feature-cards">
+          <div class="feature-card">
+            <h3>Deforestation Detection</h3>
+            <i id="feature-icon" class="fa-solid fa-shield-halved"></i>
+            <p>Advanced U-Net model for precise land cover segmentation using LiDAR imagery</p>
+          </div>
+          <div class="feature-card">
+            <h3>Forest Type Classification</h3>
+            <i id="feature-icon" class="fa-solid fa-stairs"></i>
+            <p>
+              Accurate classification of tropical, boreal, and dry & desert forests using VGG16 and CNN models.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3>Forest Health Assessment</h3>
+            <i id="feature-icon" class="fa-solid fa-x-ray"></i>
+            <p>
+              Reliable biomass and carbon storage estimates using LiDAR data for forest health evaluation.
+            </p>
+          </div>
+    
+          <div class="feature-card">
+            <h3>Wildlife Tracking:</h3>
+            <i id="feature-icon" class="fa-solid fa-bowl-food"></i>
+            <p>
+              Efficient species monitoring with camera traps and YOLO algorithms.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Milestones -->
+      <section id="milestones" class="main-sections" >
+        <section id="milestones">
+          <h1 data-aos="fade-right">Milestones</h1>
+          <ul>
+            <li style="--accent-color: #41516c">
+              <div class="date">8th February 2023</div>
+              <div class="title">Project Proposal</div>
+              <div class="descr">
+                Presented to a panel of judges in order to provide an overview of
+                the proposed research.
+                <p style="font-weight: 600">Marks allocated - 6%</p>
+              </div>
+            </li>
+            <li style="--accent-color: #fbca3e">
+              <div class="date">11th March 2023</div>
+              <div class="title">Progress Presentation - 1</div>
+              <div class="descr">
+                Evaluation of 50% completion of the proposed solution by a panel of
+                judges.
+                <p style="font-weight: 600">Marks allocated - 15%</p>
+              </div>
+            </li>
+            <li style="--accent-color: #e24a68">
+              <div class="date">19th March 2024</div>
+              <div class="title">Progress Presentation - 2</div>
+              <div class="descr">
+                Evaluation of 90% completion of the proposed solution by a panel of
+                judges.
+                <p style="font-weight: 600">Marks allocated - 18%</p>
+              </div>
+            </li>
+            <li style="--accent-color: #4cadad">
+              <div class="date">4th March 2024</div>
+              <div class="title">Reserch Paper</div>
+              <div class="descr">
+                Describes what you contribute to existing knowladge, giving due recognition to all work that you referred in making new knowledge
+                <p style="font-weight: 600">Marks allocated - 10%</p>
+              </div>
+            </li>
+    
+            <li style="--accent-color: #4cadad">
+              <div class="date">20th May 2024</div>
+              <div class="title">Final Presentation & Viva</div>
+              <div class="descr">
+                Viva is held individually to assess each members contribution to the project
+                <p style="font-weight: 600">Marks allocated - 20%</p>
+              </div>
+            </li>
+            <li style="--accent-color: #4cadad">
+              <div class="date">17th June 2024</div>
+              <div class="title">Website Assessment</div>
+              <div class="descr">
+                The Website helps to promote our reserch project and reveals all details related to to the project
+                <p style="font-weight: 600">Marks allocated - 25%</p>
+              </div>
+            </li>
+            <li style="--accent-color: #4cadad">
+              <div class="date">28th June 2024</div>
+              <div class="title">Logbook</div>
+              <div class="descr">
+                staus of the project is validated thought the Logbook. This also includes. Status documents 1 & 2
+                <p style="font-weight: 600">Marks allocated - 25%</p>
+              </div>
+            </li>
+            <li style="--accent-color: #4cadad">
+              <div class="date">31th June 2024</div>
+              <div class="title">Final Report</div>
+              <div class="descr">
+                Final Report evalutes the completed project done thought the year. Marks mentioned below includes marks for individual & group reports and also Final report
+                <p style="font-weight: 600">Marks allocated - 20%</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <!-- Downloads -->
+      <section id="downloads" class="main-sections" >
+        <div class="container">
+            <h5 class="section-headings">Downloads</h5>
+            <!-- Documents -->
+            <div class="sub-section">
+                <h2>Documents</h2>
+                <p>Please find all documents related to this project below.</p>
+                <div class="row mt-sm-5 downloads-container">
+				 <!-- Topic Assessment -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Topic Assessment</h5>
+                        
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://drive.google.com/file/d/138j_PHnkyxBXrXFz6Y_fUhe5Dz-fEPCi/view?usp=sharing" target="_blank">Download</a></li>
+                        <!-- <li class="list-group-item">Individual<a href="">Download</a></li> -->
+                      </ul>
+
+                    </div>
+                  </div>
+                  
+                  <!-- Project Proposal -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Project Proposal</h5>
+                        <p class="card-text pt-sm-2"></p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://drive.google.com/drive/folders/1XL_V3OMpRJrj24WA1Y6YN1a3Jo4Y4Yhr?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Status Documents -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Status Documents I</h5>
+                        
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <!-- <li class="list-group-item">Group<a href="">Download</a></li> -->
+                        <li class="list-group-item"><a href="https://drive.google.com/drive/folders/1lavgyqcBebtHLEP3WEyNMfvoAP8Qsnuy?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Status Documents -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Status Documents II</h5>
+                        
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <!-- <li class="list-group-item">Group<a href="">Download</a></li> -->
+                        <li class="list-group-item"><a href="https://drive.google.com/drive/folders/1DAHRAljGv5kh_83htcswikLkTQBf3o9x?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Research -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Research Paper</h5>
+                        
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://drive.google.com/file/d/1HbODppyDKU1U-6y4HECfZJ05x3cqgeS_/view?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Final Report -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Final Report</h5>
+                        <p class="card-text pt-sm-2"></p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/13yq1DpCJAn2GNO3YuUvL8xT3vdRxm4Yh/view?usp=sharing" target="_blank">Download</a></li>
+                        <li class="list-group-item">Individual<a href="https://drive.google.com/drive/folders/1tN8RmBsr0Upn0O6qxaBlXhfQRVBA4NdK?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  
+                </div>
+            </div>
+            <!-- Presentations -->
+            <div id="presentations" class="sub-section">
+                <h2>Presentations</h2>
+                <p>Please find all presentations related this project below.</p>
+                <div class="row mt-sm-5 downloads-container">
+                  <!-- Project Proposal -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Project Proposal</h5>
+                        
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://drive.google.com/file/d/1jtFCwlZ-z0HQylWrlkPsV__pbLraHyPY/view?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  
+                  <!-- Progress Presentation I -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Progress Presentation I</h5>
+                        
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://drive.google.com/file/d/1uJJ_p6MSGZx5WVE-8bIp7KPNAq4lzAGb/view?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Progress Presentation II -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Progress Presentation II</h5>
+                        
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://drive.google.com/file/d/19Irthu-naVuQ3SRf4bhL3S4e_nHtGngA/view?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Final Presentation -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Final Presentation</h5>
+                        
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://drive.google.com/file/d/1rWPrR8Y9MdvmjsUNCkAfmSMT0M1Pgs2m/view?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- About Us -->
+      <section id="about" class="main-sections " style="background-color:#FDFEFE">
+        <div class="container">
+            <h5 class="section-headings">About Us</h5>
+            <div class="sub-section about-us-container ">
+                <h2>Meet Our Team !</h2>
+                <div class="row  mt-sm-5 ">
+                  <!-- Supervisor -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/Supervisor.jpg"  class="about-us-image supervisor" alt="Dr.Lakmini Abeywardhana" height="20%"/>
+                      <div class="card-body">
+                        <h5 class="card-title">Dr.Lakmini Abeywardhana</h5>
+						</br>
+                        <span class="badge badge-secondary">Supervisor</span>
+                                        <div class="text-group">
+                                            <p>Sri Lanka Institute of Information Technology</p>
+                                        </div>
+                                        <div class="text-group">
+                                            <p><strong>Department</strong></p>
+                                            <p>Computer Science Faculty of Computing</p>
+                                        </div>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                          <a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/lakmini-abeywardhana-65283aa9/"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn<br></a>
+                                            <a class="card-text" style="cursor: pointer;" href="mailto:lakmini.d@sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Co Supervisor -->
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card about-us-card">
+                                    <img src="./Images/dp/cosupervisor.jpg"  class="about-us-image cosupervisor" alt="Ms.Sanjeevi Chandrasiri" height="20%" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ms.Sanjeevi Chandrasiri</h5>
+                                        </br>
+                                        <span class="badge badge-secondary">Co-Supervisor</span>
+                                        <div class="text-group">
+                                            <p>Sri Lanka Institute of Information Technology</p>
+                                        </div>
+                                        <div class="text-group">
+                                            <p><strong>Department</strong></p>
+                                            <p>Information Technology Faculty of Computing</p>
+                                        </div>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/sanjeevi-chandrasiri-6154b319/?original_referer=https%3A%2F%2Fwww.sliit.lk%2F"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn<br></a>
+                                            <a class="card-text" style="cursor: pointer;" href="mailto:sanji.c@sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row  mt-sm-5" style="justify-content: center">
+                            <!-- pabasara -->
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card about-us-card">
+                                    <img src="./Images/dp/pabasara.JPG" class="about-us-image " alt="WITHANA W.A.S.P" height="20%" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Withana W.A.S.P</h5>
+                                        </br>
+                                        <span class="badge badge-secondary">Group Leader</span>
+                                        <div class="text-group">
+                                            <p><strong>Undergraduate</strong></p>
+                                            <p>Sri Lanka Institute of Information Technology</p>
+                                        </div>
+                                        <div class="text-group">
+                                            <p><strong>Department</strong></p>
+                                            <p>Software Engineering</p>
+                                        </div>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/pabasara-withana-4866601b6/"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn<br></a>
+                                            <a class="card-text" style="cursor: pointer;" href="mailto:pabasarawithana@gmail.com"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- chamini -->
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card about-us-card">
+                                    <img src="./Images/dp/chamini.jpg" class="about-us-image" alt="KULASEKARA D.C.V" height="20%" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">KULASEKARA D.C.V</h5>
+                                        </br>
+                                        <span class="badge badge-secondary">Group Member</span>
+                                        <div class="text-group">
+                                            <p><strong>Undergraduate</strong></p>
+                                            <p>Sri Lanka Institute of Information Technology</p>
+                                        </div>
+                                        <div class="text-group">
+                                            <p><strong>Department</strong></p>
+                                            <p>Software Engineering</p>
+                                        </div>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/chamini-vinodya-kulasekara-2aba48227/"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn<br></a>
+                                            <a class="card-text" style="cursor: pointer;" href="mailto:chavikulasekara@gmail.com"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- prabodha -->
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card about-us-card">
+                                    <img src="./Images/dp/prabodha.jpg" class="about-us-image" alt="Munasinghe M.G.P" height="20%" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Munasinghe M.G.P</h5>
+                                        </br>
+                                        <span class="badge badge-secondary">Group Member</span>
+                                        <div class="text-group">
+                                            <p><strong>Undergraduate</strong></p>
+                                            <p>Sri Lanka Institute of Information Technology</p>
+                                        </div>
+                                        <div class="text-group">
+                                            <p><strong>Department</strong></p>
+                                            <p>Data Science</p>
+                                        </div>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/prabodha-munasinghe-a0abba227/"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn<br></a>
+                                            <a class="card-text" style="cursor: pointer;" href="mailto:mgp.munasinghe@gmail.com"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- shenal -->
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card about-us-card">
+                                    <img src="./Images/dp/shenal.jpg" class="about-us-image" alt="SAMARAWICKRAMA K.K.R.S.D.A" height="20%" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Samarawickrama K.K.R.S.D.A</h5>
+                                        </br>
+                                        <span class="badge badge-secondary">Group Member</span>
+                                        <div class="text-group">
+                                            <p><strong>Undergraduate</strong></p>
+                                            <p>Sri Lanka Institute of Information Technology</p>
+                                        </div>
+                                        <div class="text-group">
+                                            <p><strong>Department</strong></p>
+                                            <p>Information Technology</p>
+                                        </div>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/shenal-samarawickrama-084330194"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn<br></a>
+                                            <a class="card-text" style="cursor: pointer;" href="mailto:shenal918@gmail.com"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+ 
+
+    <!-- Contact Us -->
+    <section id="contact" class="main-sections" style="background-color:#FDFEFE">
+        <div class="container">
+            <h5 class="section-headings">Contact Us</h5>
+            <div class="sub-section">
+                <h2>Get in Touch</h2>
+                <div class="row  mt-sm-5">
+                    <div class="col-md-6 col-sm-12 contact-form">
+                        <form action="MAILTO:ecowatchforest@gmail.com" method="POST" enctype="text/plain">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message or Query</label>
+                                <textarea class="form-control" id="message" rows="5"></textarea>
+                            </div>
+                            <button type="submit" class="btn btncolorgradient	">Submit</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6 col-sm-12 contact-details">
+                        <div>
+                            <p><strong>Contact Details</strong></p>
+                            <p>For further queries please reach us at <a href="mailto: ecowatchforest@gmail.com">ecowatchforest@gmail.com</a></p>
+                            <p>Hope this project helped you in some manner. Thank you!</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Scripts -->
+    <script src="./lib/jquery/jquery-3.5.1.slim.min.js"></script>
+    <script src="./lib/fontawesome/js/all.min.js"></script>
+    <script src="./lib/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
